@@ -31,7 +31,7 @@ export const Home = () => {
 
     useEffect(() => {
         async function fetchCategories() {
-            const URL = `${process.env.REACT_APP_HOST}/categoryProducts`;
+            const URL = `http://localhost:8000/categoryProducts`;
             const response = await fetch(URL);
             const data = await response.json();
             setCategories(data);

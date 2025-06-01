@@ -24,7 +24,7 @@ export const Register = () => {
             body: JSON.stringify(userDetails)
         }
 
-        const response = await fetch(`${process.env.REACT_APP_HOST}/register`, requestOptions);
+        const response = await fetch(`http://localhost:8000/register`, requestOptions);
 
         const data = await response.json();
         data.accessToken ? navigate("/") : toast.error(data);

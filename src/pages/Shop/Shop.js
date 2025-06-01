@@ -12,7 +12,7 @@ export const Shop = () => {
 
   useEffect(() => {
     async function fetchProducts() {
-      const URL = `${process.env.REACT_APP_HOST}/products`;
+      const URL = `http://localhost:8000/products`;
       const response = await fetch(URL);
       const data = await response.json();
       setProducts(data);

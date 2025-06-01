@@ -5,7 +5,7 @@ export const BestSeller = () => {
 
   useEffect(() => {
     async function fetchBestSellerProduct(){
-      const URL = `${process.env.REACT_APP_HOST}/bestSellerProducts`;
+      const URL = `http://localhost:8000/bestSellerProducts`;
 
       const response = await fetch(URL);
       const data = await response.json();

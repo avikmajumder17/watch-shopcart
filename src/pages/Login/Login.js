@@ -25,7 +25,7 @@ export const Login = () => {
             body: JSON.stringify(userDetails)
         };
 
-        const response = await fetch(`${process.env.REACT_APP_HOST}/login`, requestOptions);
+        const response = await fetch(`http://localhost:8000/login`, requestOptions);
 
         const data = await response.json();
         data.accessToken ? navigate("/") : toast.error(data);
