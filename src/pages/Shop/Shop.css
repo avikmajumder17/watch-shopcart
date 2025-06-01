@@ -1,0 +1,8 @@
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .shop-items-wrapper .product-item {
+    width: 25% !important;
+  }
+}
+.product-grid-wrapper img {
+  min-height: 100%;
+}/*# sourceMappingURL=Shop.css.map */

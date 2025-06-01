@@ -1,0 +1,310 @@
+{
+  "categoryProducts": [
+    {
+      "href": "default/men-watches.html",
+      "title": "Men's Watches",
+      "img": "./images/media/catalog/category/menwatches_1.png",
+      "count": "10 items"
+    },
+    {
+      "href": "default/health-beauty-hair.html",
+      "title": "Women's Watches",
+      "img": "./images/media/catalog/category/womenwatches_1.png",
+      "count": "7 items"
+    },
+    {
+      "href": "default/apparel.html",
+      "title": "Jewellery",
+      "img": "./images/media/catalog/category/je_1.png",
+      "count": "14 items"
+    },
+    {
+      "href": "default/sports-outdoors.html",
+      "title": "Accessories",
+      "img": "./images/media/catalog/category/acc_1.png",
+      "count": "2 items"
+    }
+  ],
+  "products": [
+    {
+      "id": 137,
+      "name": "Hublot Spirit Of Big Bang Moonphase Titanium Blue",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/3/_/3_5.jpg",
+      "rating": 60,
+      "price": 315,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 138,
+      "name": "Franck Muller Vanguard Titanium Wool",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/5/_/5_1_1.jpg",
+      "rating": 100,
+      "price": 520,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 139,
+      "name": "Vacheron Constantin Vanguard Yachting Tourbillon",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/7/17.jpg",
+      "rating": 100,
+      "price": 369,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 140,
+      "name": "Vacheron Automatic Constantin Titanium Light",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/2/22_2.jpg",
+      "rating": 87,
+      "price": 633,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 141,
+      "name": "Hublot Chronograph Automatic Moonphase Titanium",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/4/14.jpg",
+      "rating": 87,
+      "price": 689,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 142,
+      "name": "Vacheron Constantin Traditionnelle World Time",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/_/1_1.jpg",
+      "rating": 87,
+      "price": 280,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 143,
+      "name": "Vacheron Constantin Titanium Dark Blue",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/3/23_1.jpg",
+      "rating": 93,
+      "price": 633,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 144,
+      "name": "Hublot Spirit Of Big Bang Moonphase Titanium",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/_/2_3.jpg",
+      "rating": 80,
+      "price": 510,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    },
+    {
+      "id": 145,
+      "name": "Tissot Le Locle Automatic Chronograph Black Diamond",
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/0/20_2.jpg",
+      "rating": 87,
+      "price": 614,
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.",
+      "reviews": 1
+    }
+  ],
+  "bestSellerProducts": [
+    {
+      "id": 146,
+      "name": "Tissot T-Touch Expert Solar II Rubber Red Diamond",
+      "price": 998,
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/9/19_1.jpg",
+      "category": "Jewellery"
+    },
+    {
+      "id": 147,
+      "name": "Tissot Le Locle Automatic Chronograph Black Diamond",
+      "price": 614,
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/0/20_2.jpg",
+      "category": "Men's Watches"
+    },
+    {
+      "id": 148,
+      "name": "Omega Seamaster Planet Ocean Black Dial Coke Bezel",
+      "price": 578,
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/7/27_2.jpg",
+      "category": "Men's Watches"
+    },
+    {
+      "id": 149,
+      "name": "Omega Seamaster Aqua Terra Mother of Pearl Dial",
+      "price": 567,
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/1/21_2.jpg",
+      "category": "Men's Watches"
+    },
+    {
+      "id": 150,
+      "name": "Hublot Chronograph Automatic Moonphase Titanium",
+      "price": 478,
+      "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/4/14.jpg",
+      "category": "Men's Watches"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "id": 151,
+      "name": "Franck Muller Vanguard Yachting Tourbillon",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/6/_/6_4.jpg",
+      "rating": 80,
+      "reviews": 1,
+      "price": 270,
+      "isNew": false
+    },
+    {
+      "id": 152,
+      "name": "Franck Muller Vanguard Titanium Wool",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/5/_/5_1_1.jpg",
+      "rating": 100,
+      "reviews": 1,
+      "price": 520,
+      "isNew": false
+    },
+    {
+      "id": 153,
+      "name": "Vacheron Constantin Vanguard Yachting Tourbillon",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/1/7/17.jpg",
+      "rating": 100,
+      "reviews": 1,
+      "price": 369,
+      "isNew": false
+    },
+    {
+      "id": 154,
+      "name": "Hublot Spirit Of Big Bang Moonphase Titanium Blue",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/3/_/3_5.jpg",
+      "rating": 60,
+      "reviews": 1,
+      "price": 315,
+      "isNew": false
+    },
+    {
+      "id": 155,
+      "name": "Vacheron Constantin Titanium Dark Blue",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/2/3/23_1.jpg",
+      "rating": 93,
+      "reviews": 1,
+      "price": 633,
+      "isNew": false
+    },
+    {
+      "id": 156,
+      "name": "Vacheron Constantin Traditionnelle World Time",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/1/_/1_1.jpg",
+      "rating": 87,
+      "reviews": 1,
+      "price": 280,
+      "isNew": false
+    },
+    {
+      "id": 157,
+      "name": "Hublot Chronograph Automatic Moonphase Titanium",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/1/4/14.jpg",
+      "rating": 87,
+      "reviews": 1,
+      "price": 689,
+      "isNew": false
+    },
+    {
+      "id": 158,
+      "name": "Hublot Classic Fusion Automatic Grey Dial",
+      "image": "/images/media/catalog/product/cache/101741833577b314b3a33b4a4caa54b9/2/5/25.jpg",
+      "rating": 87,
+      "reviews": 1,
+      "price": 833,
+      "isNew": true
+    }
+  ],
+  "homeTestimonials": [
+    {
+      "text": "It is a wonderful watch. I did not make the mistake of spending a sum of money to own it. Thank you New Century for the best.",
+      "name": "JOHNNIE WALKER",
+      "location": "Los Angeles"
+    },
+    {
+      "text": "It is a wonderful watch. I did not make the mistake of spending a sum of money to own it. Thank you New Century for the best.",
+      "name": "MICHAEL JACKSON",
+      "location": "New York"
+    },
+    {
+      "text": "It is a wonderful watch. I did not make the mistake of spending a sum of money to own it. Thank you New Century for the best.",
+      "name": "TOMMY HILFIGER",
+      "location": "San Francisco"
+    },
+    {
+      "text": "It is a wonderful watch. I did not make the mistake of spending a sum of money to own it. Thank you New Century for the best.",
+      "name": "MICHAEL JACKSON",
+      "location": "New York"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "The Hair Hack I Never Knew",
+      "link": "default/blog/post_/the-hair-hack-i-never-knew/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/fashion-1.jpg",
+      "date": "04",
+      "month": "Dec",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    },
+    {
+      "title": "Drying Out Your Skin During",
+      "link": "default/blog/post_/drying-out-your-skin-during/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/fashion-2.jpg",
+      "date": "04",
+      "month": "Dec",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    },
+    {
+      "title": "Shop Everyone On Your List",
+      "link": "default/blog/post_/shop-everyone-on-your-list/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/fashion-3.jpg",
+      "date": "04",
+      "month": "Dec",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    },
+    {
+      "title": "The Shoe Will Your Fall Style",
+      "link": "default/blog/post_/the-shoe-will-your-fall-style/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/fashion-4.jpg",
+      "date": "04",
+      "month": "Dec",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    },
+    {
+      "title": "Join millions of others",
+      "link": "default/blog/post_/join-millions-of-others/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/8.jpg",
+      "date": "17",
+      "month": "Jun",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    },
+    {
+      "title": "Hang onto your memories",
+      "link": "default/blog/post_/hang-onto-your-memories/index.html",
+      "img": "http://magento2.magentech.com/themes/sm_time/pub/media/magefan_blog/7.jpg",
+      "date": "17",
+      "month": "Jun",
+      "desc": "Egestas mus a mus rhoncus adipiscing iaculis facilisis a eu nunc varius a per parturient vestibulum suspendisse aenean semper velit aliquam"
+    }
+  ],
+  "users": [
+    {
+      "email": "avikmaassaddasjumdwder17@gmail.com",
+      "password": "$2a$10$OFlPDSFiibCGUZJYNO5K8.9P9SvgDNVUsi2usqR4ddxPYTNsqvjX2",
+      "firstName": "av",
+      "lastName": "m",
+      "id": 1
+    },
+    {
+      "email": "avikmaassaddadfsjumdwder17@gmail.com",
+      "password": "$2a$10$UIvuL5zvSek77axH53X5UOn.luP1rKNMYr5fkjdxMkrvi19WvpmKi",
+      "firstName": "asdfsdf",
+      "lastName": "dsfsdf",
+      "id": 2
+    }
+  ]
+}
