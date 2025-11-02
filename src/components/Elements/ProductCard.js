@@ -9,11 +9,12 @@ export const ProductCard = ({product}) => {
     const {productsWishlist, addToWishlist, removeFromWishlist} = useWishlist();
     const [inCart, setInCart] = useState(false);
 
-    // eslint-disable-next-line
+    
     useEffect(() => {
         const alreadyInCart = cartList.find(item => item.id === product.id);
 
         alreadyInCart ? setInCart(true) : setInCart(false);
+    // eslint-disable-next-line
     }, [cartList]);
 
     return (
