@@ -20,7 +20,7 @@ export const Shop = () => {
 
   const searchTerm = new URLSearchParams(search).get("keyword");
 
-  console.log(productList);
+  // eslint-disable-next-line
 
   useEffect(() => {
     async function fetchProducts() {
@@ -84,6 +84,8 @@ export const Shop = () => {
     setMaxValue(e.target.value);
   }
 
+  // eslint-disable-next-line
+  
   useEffect(() => {
     setPriceRange(minValue, maxValue);
   }, [minValue, maxValue]);

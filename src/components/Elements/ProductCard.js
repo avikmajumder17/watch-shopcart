@@ -9,6 +9,7 @@ export const ProductCard = ({product}) => {
     const {productsWishlist, addToWishlist, removeFromWishlist} = useWishlist();
     const [inCart, setInCart] = useState(false);
 
+    // eslint-disable-next-line
     useEffect(() => {
         const alreadyInCart = cartList.find(item => item.id === product.id);
 
@@ -88,13 +89,13 @@ export const ProductCard = ({product}) => {
 
                             <div data-role="add-to-links" className="actions-secondary">
                                 {productsWishlist.some(item => item.id === product.id) ? (
-                                    <button onClick={() => removeFromWishlist(product)} className="action towishlist dfrrewerqwqw" title="Add to Wish List" aria-label="Add to Wish List" data-action="add-to-wishlist" role="button" >
+                                    <button onClick={() => removeFromWishlist(product)} className="action towishlist dfrrewerqwqw" title="Add to Wish List" aria-label="Add to Wish List" data-action="add-to-wishlist">
                                         <i class="bi bi-heart-fill"></i> <span>Remove from Wishlist</span>
                                     </button>
                                 )
                                 
                                 : (
-                                    <button onClick={() => addToWishlist(product)} className="action towishlist dfrrewerqwqw" title="Add to Wish List" aria-label="Add to Wish List" data-action="add-to-wishlist" role="button" >
+                                    <button onClick={() => addToWishlist(product)} className="action towishlist dfrrewerqwqw" title="Add to Wish List" aria-label="Add to Wish List" data-action="add-to-wishlist">
                                         <i class="bi bi-heart"></i> <span>Add to Wish List</span>
                                     </button>
                                 )}                                

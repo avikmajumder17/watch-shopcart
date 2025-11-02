@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -11,7 +11,7 @@ export const BestSellers = () => {
     const { cartList, addToCart, removeFromCart } = useCart();
     const { productsWishlist, addToWishlist, removeFromWishlist } = useWishlist();
 
-
+    // eslint-disable-next-line
     useEffect(() => {
         async function fetchProducts() {
             const URL = `http://localhost:8000/products`;

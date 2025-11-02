@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
 
 import { useWishlist } from "../../context/WishlistContext";
-import { useCart } from "../../context/CartContext";
 
 import "./Css/Wishlist.css";
 
 
 export const Wishlist = () => {
     const { productsWishlist, removeFromWishlist } = useWishlist();
-    const { addToCart, removeFromCart } = useCart();
 
     console.log(productsWishlist);
 
