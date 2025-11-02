@@ -11,7 +11,7 @@ export const BestSellers = () => {
     const { cartList, addToCart, removeFromCart } = useCart();
     const { productsWishlist, addToWishlist, removeFromWishlist } = useWishlist();
 
-    // eslint-disable-next-line
+
     useEffect(() => {
         async function fetchProducts() {
             const URL = `http://localhost:8000/products`;
@@ -24,6 +24,7 @@ export const BestSellers = () => {
         }
 
         fetchProducts();
+    // eslint-disable-next-line
     }, []);
 
     const bestSellerSettings = {
