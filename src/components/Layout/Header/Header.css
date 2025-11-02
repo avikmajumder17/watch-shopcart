@@ -1,0 +1,62 @@
+.mobile-cart i {
+  color: #fff !important;
+  font-size: 26px;
+  line-height: 50px !important;
+}
+
+.sidebar-nav-mobile-show {
+  left: 0 !important;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-overlay-show {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 895 !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.loggedin-dropdown-wrapper i {
+  font-size: 1.8rem;
+  float: right;
+  line-height: 2.5;
+  cursor: pointer;
+}
+.loggedin-dropdown-wrapper ul {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  z-index: 9;
+  right: 0;
+  top: 4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loggedin-dropdown-wrapper ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #dddddd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+.loggedin-dropdown-wrapper ul li:last-child {
+  border-bottom: none;
+}
+.loggedin-dropdown-wrapper ul li a {
+  font-size: 1.4rem;
+}
+
+.hiujoijqoweqwe i{
+  font-size: 2rem;
+}
+
+.oiejrwerewr{
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #CB9400;
+  border-radius: 50%;
+  top: -10%;
+  left: -35%;
+}

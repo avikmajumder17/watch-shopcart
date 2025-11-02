@@ -1,0 +1,25 @@
+.ceertgwerwer_slider .slick-slide {
+  padding-inline: 1.5rem;
+}
+
+.dohweirewre .btn-danger{
+  height: 50px;
+  padding: 0 50px;
+  font-size: 100%;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.product-info-main .product-addto-links .towishlist:before{
+  display: none !important;
+}
+
+.product-info-main .product-addto-links .towishlist i{
+  text-align: center;
+  font-size: 14px;
+}
+
+.product-info-main .product-addto-links .towishlist:focus{
+  background-color: #000 !important;
+}

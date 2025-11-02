@@ -1,0 +1,57 @@
+.bs-slider .slick-slide {
+  padding-inline: 15px !important;
+}
+.bs-slider .slick-slide .bs-pii {
+  width: 100% !important;
+  padding: 14px;
+  border: solid 1px #eee;
+  text-align: center;
+}
+.bs-slider .slick-slide .bs-pii .product-item-name a {
+  padding: 6px 0;
+  font-size: 123.077%;
+  line-height: 1.2;
+}
+.bs-slider .slick-slide .bs-pii .product-item-details {
+  padding: 10px 0 0;
+}
+.bs-slider .slick-slide .bs-pii .price {
+  font-size: 138.462%;
+  font-weight: 400 !important;
+}
+
+.lp-slider .slick-slide {
+  padding-inline: 10px;
+}
+
+.banner-slider .slick-dots {
+  bottom: 20px;
+}
+.banner-slider .slick-dots li {
+  height: 0;
+}
+.banner-slider .slick-dots li button {
+  width: 20px;
+  height: 2px;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.4) !important;
+  padding: 0;
+}
+.banner-slider .slick-dots li.slick-active button {
+  background: #CB9400 !important;
+}
+.action.btn-danger{
+  font-weight: 400;
+  font-family: 'Philosopher', sans-serif;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  text-transform: uppercase;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  transition: 0.1s;
+  -moz-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+}

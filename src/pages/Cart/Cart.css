@@ -1,0 +1,53 @@
+.oijdojoewrwer img{
+    min-height: 150px !important;
+}
+
+.dewtygttrr .btn-dark{
+    font-weight: 400;
+    font-family: 'Philosopher', sans-serif;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    transition: 0.1s;
+    font-size: 1.4rem;
+}
+
+.dikehrewr{
+    text-align: center;
+    margin: 0 auto;
+    min-height: 65px;
+    max-height: 65px;
+    overflow: hidden;    
+}
+
+.dikehrewr img{
+    max-width: 100%;
+    max-height: 65px;
+    min-height: 65px !important;    
+}
+
+.ioejijrwerer{
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.diuhejiojweerr{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 0.5rem;
+}
+
+table.table td{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+table.table tr:last-child td{
+    font-size: 2rem;
+}
+
+.dikehrewr{
+    flex: 0 0 auto;
+}
