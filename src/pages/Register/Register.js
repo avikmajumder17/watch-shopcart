@@ -1,12 +1,15 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import axios from "axios";
 
-import { useAuth } from "../../context/AuthContext";
+// import { useAuth } from "../../context/AuthContext";
+
+
 
 export const Register = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const { setToken } = useAuth();
+    // const { setToken } = useAuth();
 
     async function handleRegister(e) {
         e.preventDefault();
@@ -15,25 +18,30 @@ export const Register = () => {
             firstName: e.target.firstname.value,
             lastName: e.target.lastname.value,
             email: e.target.email.value,
-            password: e.target.password.value
+            password: e.target.password.value,
+            passwordConfirm: e.target.password_confirmation.value
         }
 
-        const requestOptions = {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify(userDetails)
+        try {
+            const res = await axios.post("http://127.0.0.1:8000/api/v1/users", userDetails);
+
+            console.log(res);
+
+            toast.success("User registration successful");
+
+            e.target.reset();
+        } catch (err) {
+            toast.error(err.message || "Error occurred")
         }
 
-        const response = await fetch(`http://localhost:8000/register`, requestOptions);
+        // const data = await response.json();
+        // data.accessToken ? navigate("/") : toast.error(data);
 
-        const data = await response.json();
-        data.accessToken ? navigate("/") : toast.error(data);
-
-        if (data.accessToken) {
-            sessionStorage.setItem("token", JSON.stringify(data.accessToken));
-            sessionStorage.setItem("userid", JSON.stringify(data.user.id));
-            setToken(data.accessToken);
-        }
+        // if (data.accessToken) {
+        //     sessionStorage.setItem("token", JSON.stringify(data.accessToken));
+        //     sessionStorage.setItem("userid", JSON.stringify(data.user.id));
+        //     setToken(data.accessToken);
+        // }
     }
 
     return (

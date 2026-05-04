@@ -18,6 +18,8 @@ export const Shop = () => {
   const [maxValue, setMaxValue] = useState(1000);
   const search = useLocation().search;
 
+  console.log(search)
+
   const searchTerm = new URLSearchParams(search).get("keyword");
   
 

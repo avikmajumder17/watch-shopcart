@@ -30,7 +30,7 @@
       "id": 137,
       "name": "Hublot Spirit Of Big Bang Moonphase Titanium Blue",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/3/_/3_5.jpg",
-      "rating": 60,
+      "rating": 4,
       "price": 315,
       "manufacturer": "Smile Retro",
       "color": "#000000",
@@ -43,7 +43,7 @@
       "id": 220,
       "name": "Tissot T-Touch Expert Solar II Rubber Red Diamond",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/9/19_1.jpg",
-      "rating": 60,
+      "rating": 4.2,
       "price": 998,
       "manufacturer": "Smile Retro",
       "color": "#FF0000",
@@ -56,7 +56,7 @@
       "id": 138,
       "name": "Franck Muller Vanguard Titanium Wool",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/5/_/5_1_1.jpg",
-      "rating": 100,
+      "rating": 2,
       "price": 520,
       "manufacturer": "Mock Up",
       "color": "#3944BC",
@@ -69,7 +69,7 @@
       "id": 139,
       "name": "Vacheron Constantin Vanguard Yachting Tourbillon",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/7/17.jpg",
-      "rating": 100,
+      "rating": 3,
       "price": 369,
       "manufacturer": "The Back Yard",
       "color": "#008000",
@@ -82,7 +82,7 @@
       "id": 140,
       "name": "Vacheron Automatic Constantin Titanium Light",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/2/22_2.jpg",
-      "rating": 87,
+      "rating": 4.6,
       "price": 633,
       "manufacturer": "Agatha Stewart",
       "color": "#FFC0CB",
@@ -95,7 +95,7 @@
       "id": 141,
       "name": "Hublot Chronograph Automatic Moonphase Titanium",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/4/14.jpg",
-      "rating": 87,
+      "rating": 3.7,
       "price": 689,
       "manufacturer": "Ontech Group",
       "color": "#FFC0CB",
@@ -108,7 +108,7 @@
       "id": 142,
       "name": "Vacheron Constantin Traditionnelle World Time",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/1/_/1_1.jpg",
-      "rating": 87,
+      "rating": 3,
       "price": 280,
       "manufacturer": "Real Estate",
       "color": "#BCC6CC",
@@ -121,7 +121,7 @@
       "id": 143,
       "name": "Vacheron Constantin Titanium Dark Blue",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/3/23_1.jpg",
-      "rating": 93,
+      "rating": 4.9,
       "price": 633,
       "manufacturer": "Smile Retro",
       "color": "#000000",
@@ -134,7 +134,7 @@
       "id": 144,
       "name": "Hublot Spirit Of Big Bang Moonphase Titanium",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/_/2_3.jpg",
-      "rating": 80,
+      "rating": 4.3,
       "price": 510,
       "manufacturer": "Mock Up",
       "color": "#3944BC",
@@ -147,7 +147,7 @@
       "id": 145,
       "name": "Tissot Le Locle Automatic Chronograph Black Diamond",
       "image": "/images/media/catalog/product/cache/41fecdcbcb518aee26757b7fe6ef29e9/2/0/20_2.jpg",
-      "rating": 87,
+      "rating": 3,
       "price": 614,
       "manufacturer": "The Back Yard",
       "color": "#008000",
@@ -472,6 +472,17 @@
       "desc": "It is a long established fact that a reader will be distracted by the readable content..."
     }
   ],
+  "blogAttributes": {
+    "blogCategory": [
+      "Fassion",
+      "Stylish",
+      "New"
+    ],
+    "tags": [
+      "new",
+      "modern"
+    ]
+  },
   "users": [
     {
       "email": "avikmaassaddasjumdwder17@gmail.com",
@@ -507,6 +518,13 @@
       "firstName": "avk",
       "lastName": "vrse",
       "id": 5
+    },
+    {
+      "email": "avik@gmail.com",
+      "password": "$2a$10$OLXpa3SouHwM7emrD/9pY.KjZDAe1ZIlKfb/n.w4t8h/8JD2m02vS",
+      "firstName": "avik",
+      "lastName": "m",
+      "id": 6
     }
   ]
 }

@@ -1,9 +1,16 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { ScrollToTop } from "../../components";
 
 
 export const Blog = () => {
   const [blogs, setBlogs] = useState([]);
+  const [blogsCategories, setBlogsCategories] = useState([]);
+  const [blogsTags, setBlogsTags] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const blogsPerPage = 4;
+
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -18,6 +25,46 @@ export const Blog = () => {
 
     fetchBlogs();
   }, []);
+
+
+  useEffect(() => {
+    const fetchBlogsCategoriesTags = async () => {
+      const URL = "http://localhost:8000/blogAttributes";
+
+      const response = await fetch(URL);
+      const data = await response.json();
+
+      setBlogsCategories(data.blogCategory);
+      setBlogsTags(data.tags);
+    }
+
+    fetchBlogsCategoriesTags();
+  }, []);
+
+
+  const indexOfLastBlog = currentPage * blogsPerPage;
+  const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+  const totalPages = Math.ceil(blogs.length / blogsPerPage);
+
+  let pages = [];
+
+  for (let i = 0; i < totalPages; i++) {
+    pages.push(i + 1);
+  }
+  
+
+  const handlePrev = () => {
+    (currentPage > 1) && setCurrentPage(currentPage - 1);
+  };
+
+  const handlePageSwitch = (pageNum) => {
+    setCurrentPage(pageNum);
+  };
+
+  const handleNext = () => {
+    (currentPage < totalPages) && setCurrentPage(currentPage + 1);
+  };
 
 
   return (
@@ -54,7 +101,7 @@ export const Blog = () => {
             <div className="column col-lg-9 main srefdftrtyurtr">
               <div className="post-list-wrapper">
                 <ol className="post-list">
-                  {blogs.map(blog => (
+                  {currentBlogs.map(blog => (
                     <li className="post-holder post-holder-10" key={blog.id}>
                       <div className="post-content post-custom">
                         <div className="post-description clearfix">
@@ -114,6 +161,18 @@ export const Blog = () => {
                   ))}
                 </ol>
               </div>
+
+              <div className="qawcweeqweeee d-flex align-items-center justify-content-center">
+                <button onClick={handlePrev} className="btn dweqrwrewr btn-main">Prev</button>
+
+                <div className="doejwower">
+                  {pages.map(page => (
+                    <button onClick={() => handlePageSwitch(page)} className={`btn ${(currentPage === page) ? "btn-main-active" : "btn-main"} mx-3`}>{page}</button>
+                  ))}
+                </div>
+
+                <button onClick={handleNext} className="btn dweqrwrewr btn-main">Next</button>
+              </div>
             </div>
 
             <div className="sidebar col-lg-3 sidebar-main">
@@ -151,6 +210,38 @@ export const Blog = () => {
                           </div>
                         </div>
                       ))}
+                    </div>
+                  </div>
+
+                  <div className="widget block block-recent-posts block-list-posts">
+                    <div className="block-title">
+                      <strong>Categories</strong>
+                    </div>
+
+                    <div className="block-content">
+                      <ul className="ewsderterewr d-flex flex-wrap mb-0 ps-0">
+                        {blogsCategories.map(blogsCategory => (
+                          <li key={blogsCategory}>
+                            <Link to="">{blogsCategory}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="widget block block-recent-posts block-list-posts">
+                    <div className="block-title">
+                      <strong>Tags</strong>
+                    </div>
+                    
+                    <div className="block-content">
+                      <ul className="ewsderterewr d-flex flex-wrap mb-0 ps-0">
+                        {blogsTags.map(blogsTag => (
+                          <li key={blogsTag}>
+                            <Link to="">{blogsTag}</Link>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>

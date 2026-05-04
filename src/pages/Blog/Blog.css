@@ -3,3 +3,30 @@
     border: none !important;
     box-shadow: none !important;
 }
+
+.ewsderterewr li{
+    margin-inline: 1rem;
+    list-style: none;
+}
+
+.ewsderterewr li a{
+    font-size: 1.8rem !important;
+}
+
+.dweqrwrewr{
+    background: #fff !important;
+    border: 1px solid #858585 !important;
+    font-size: 1.6rem !important;
+}
+
+.doejwower .btn{
+    font-size: 1.6rem !important;
+    border: 1px solid #858585 !important;
+    padding-inline: 1.6rem !important;
+}
+
+.doejwower .btn-main-active{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}

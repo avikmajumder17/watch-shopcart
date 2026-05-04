@@ -8,8 +8,6 @@ import "./Css/Wishlist.css";
 export const Wishlist = () => {
     const { productsWishlist, removeFromWishlist } = useWishlist();
 
-    console.log(productsWishlist);
-
     return (
         <>
             <div className="title-breadcrumbs">
@@ -113,9 +111,11 @@ export const Wishlist = () => {
                         )}
                     </div>
 
-                    <div className="dewtygttrr text-right w-100">
-                        <button className="btn btn-dark">Add to Shopping Cart</button>
-                    </div>
+                    {productsWishlist.length > 0 && (
+                        <div className="dewtygttrr text-right w-100">
+                            <button className="btn btn-dark">Add to Shopping Cart</button>
+                        </div>
+                    )}                    
                 </div>
             </main>
         </>
