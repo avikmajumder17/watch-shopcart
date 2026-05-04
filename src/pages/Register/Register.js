@@ -23,7 +23,7 @@ export const Register = () => {
         }
 
         try {
-            const res = await axios.post("http://127.0.0.1:8000/api/v1/users", userDetails);
+            const res = await axios.post("https://watch-ecom-backend.onrender.com/api/v1/users", userDetails);
 
             console.log(res);
 
