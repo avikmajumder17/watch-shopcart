@@ -23,9 +23,7 @@ export const Register = () => {
         }
 
         try {
-            const res = await axios.post("https://watch-ecom-backend.onrender.com/api/v1/users", userDetails);
-
-            console.log(res);
+            await axios.post("https://watch-ecom-backend.onrender.com/api/v1/users", userDetails);
 
             toast.success("User registration successful");
 
