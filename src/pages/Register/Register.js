@@ -24,6 +24,7 @@ export const Register = () => {
 
         try {
             await axios.post("https://watch-ecom-backend.onrender.com/api/v1/users", userDetails);
+            // await axios.post("http://127.0.0.1:8000/api/v1/users", userDetails);
 
             toast.success("User registration successful");
 
