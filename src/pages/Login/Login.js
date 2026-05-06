@@ -1,39 +1,39 @@
-import { useRef } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import axios from "axios";
 
-import { useAuth } from "../../context/AuthContext";
+// import { useAuth } from "../../context/AuthContext";
 
 export const Login = () => {
-    const navigate = useNavigate();
-    const { setToken } = useAuth();
-
-    const email = useRef();
-    const password = useRef();
+    // const navigate = useNavigate();
+    // const { setToken } = useAuth();
 
     async function handleLogin(e) {
         e.preventDefault();
 
         const userDetails = {
-            email: email.current.value,
-            password: password.current.value
+            email: e.target.email.value,
+            password: e.target.password.value
         };
 
-        const requestOptions = {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify(userDetails)
-        };
+        try {
+            await axios.post(`https://watch-ecom-backend.onrender.com/api/v1/users/login`, userDetails);
+            // await axios.post(`http://127.0.0.1:8000/api/v1/users/login`, userDetails);
 
-        const response = await fetch(`http://localhost:8000/login`, requestOptions);
+            toast.success("User login successful");
 
-        const data = await response.json();
-        data.accessToken ? navigate("/") : toast.error(data);
+            e.target.reset();
 
-        if (data.accessToken) {
-            sessionStorage.setItem("token", JSON.stringify(data.accessToken));
-            sessionStorage.setItem("userid", JSON.stringify(data.user.id));
-            setToken(data.accessToken);
+            // const data = await response.json();
+            // data.accessToken ? navigate("/") : toast.error(data);
+
+            // if (data.accessToken) {
+            //     sessionStorage.setItem("token", JSON.stringify(data.accessToken));
+            //     sessionStorage.setItem("userid", JSON.stringify(data.user.id));
+            //     setToken(data.accessToken);
+            // }
+        } catch (err) {
+            toast.error(err.message || "Error occurred");
         }
     }
 
@@ -84,7 +84,7 @@ export const Login = () => {
                                                 </label>
 
                                                 <div className="control">
-                                                    <input ref={email} name="email" defaultValue="" autoComplete="off" id="email" type="email" className="input-text" title="Email" />
+                                                    <input name="email" defaultValue="" autoComplete="off" id="email" type="email" className="input-text" title="Email" />
                                                 </div>
                                             </div>
 
@@ -94,7 +94,7 @@ export const Login = () => {
                                                 </label>
 
                                                 <div className="control">
-                                                    <input ref={password} name="password" type="password" autoComplete="off" className="input-text" id="pass" title="Password" />
+                                                    <input name="password" type="password" autoComplete="off" className="input-text" id="pass" title="Password" />
                                                 </div>
                                             </div>
 
